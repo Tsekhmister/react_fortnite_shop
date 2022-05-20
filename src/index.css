@@ -60,7 +60,7 @@ code {
 
   background-color: beige;
   width: 50rem;
-  max-width: 95%;
+  max-width: 90%;
 
   box-shadow: rgba(16, 75, 238, 0.25) 0px 54px 55px, rgba(235, 201, 92, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
@@ -99,4 +99,28 @@ code {
 
 .cartIcon-quantity:hover {
   transform: scale(1.2);
+}
+
+.btn-checkout {
+  position: sticky;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, 0%);
+}
+
+#toast-container{
+  top: 3rem;
+  animation: fade-in 400ms ease-in-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0rem);
+  }
 }
