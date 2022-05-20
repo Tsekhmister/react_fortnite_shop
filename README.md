@@ -1,6 +1,6 @@
 # React fortnite shop
 
-[DEMO LINK](https://Tsekhmister.github.io/react_fortnite_shop/)
+[DEMO LINK](http://Tsekhmister.github.io/react_fortnite_shop/)
 
 # Description
 

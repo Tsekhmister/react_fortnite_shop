@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { API_KEY, API_URL } from "config";
+import { API_KEY, API_URL } from "../config";
 import { GoodsList } from "./GoodsList";
 import { Preloader } from "./Preloader";
 import { Cart } from "./Cart";
@@ -37,7 +37,7 @@ export const Shop = () => {
       setOrder(newOrder);
     }
 
-    setAlertName(item.name)
+    setAlertName(item.name);
   };
 
   const removeFromCart = (itemId) => {
@@ -113,7 +113,7 @@ export const Shop = () => {
           decQuantity={decQuantity}
         />
       )}
-      {alertName && <Alert name={alertName} closeAlert={closeAlert}/>}
+       {alertName && <Alert name={alertName} closeAlert={closeAlert}/>}
     </main>
   );
 };

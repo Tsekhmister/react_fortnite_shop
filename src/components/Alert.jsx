@@ -16,4 +16,4 @@ export const Alert = ({ name = '', closeAlert = Function.prototype }) => {
       <div className="toast">{name} added to cart</div>
     </div>
   )
-} 
+}
