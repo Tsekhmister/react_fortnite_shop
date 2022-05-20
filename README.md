@@ -1,4 +1,4 @@
-# React movies
+# React fortnite shop
 
 [DEMO LINK](http://Tsekhmister.github.io/react_movies/)
 
@@ -6,7 +6,7 @@
 
 Responsive website using React, API, and Materializecss
 
-  [OMDb API](https://www.omdbapi.com/)
+  [Fortnite API](https://fortniteapi.io/)
   [materializecss](https://materializecss.com/)
 
 ## Available Scripts
