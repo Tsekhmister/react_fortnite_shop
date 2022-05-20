@@ -10,6 +10,8 @@ export const Footer = () => {
             <a
               className="grey-text text-lighten-4 right"
               href="https://github.com/Tsekhmister/react_fortnite_shop"
+              target="_blank"
+              rel="noreferrer"
             >
               Repository
             </a>
