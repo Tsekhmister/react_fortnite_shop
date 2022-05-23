@@ -1,12 +1,15 @@
+import { useContext } from "react";
+import { ShopContext } from "../context";
+
 export const CartItem = ({
   id,
   name,
   price,
   quantity,
-  removeFromCart,
-  incQuantity,
-  decQuantity,
 }) => {
+
+  const {removeFromCart , incQuantity, decQuantity } = useContext(ShopContext);
+
   return (
     <li href="#!" className="collection-item">
       {name} {price} x{" "}
